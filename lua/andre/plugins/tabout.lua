@@ -10,6 +10,7 @@ return {
 				act_as_shift_tab = false, -- reverse shift content if tab out is not possible (if your keyboard/terminal supports <S-Tab>)
 				default_tab = "<C-t>", -- shift default action (only at the beginning of a line, otherwise <TAB> is used)
 				default_shift_tab = "<C-d>", -- reverse shift default action,
+				behavior = "nested", ---@type ntab.behavior
 				enable_backwards = true, -- well ...
 				completion = false, -- if the tabkey is used in a completion pum
 				tabouts = {
